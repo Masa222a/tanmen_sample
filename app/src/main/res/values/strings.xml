@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">tanmen</string>
     <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
+    <string name="title_shuffle">shuffle</string>
     <string name="title_notifications">Notifications</string>
+    <string name="title">検索</string>
+    <string name="distance">距離</string>
 </resources>
