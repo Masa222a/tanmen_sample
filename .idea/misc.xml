@@ -10,11 +10,13 @@
         <entry key="..\:/Users/PC_User/AndroidStudioProjects/tanmen/app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.3828125" />
         <entry key="..\:/Users/PC_User/AndroidStudioProjects/tanmen/app/src/main/res/drawable/ic_search_black_24dp.xml" value="0.15092592592592594" />
         <entry key="..\:/Users/PC_User/AndroidStudioProjects/tanmen/app/src/main/res/drawable/ic_shuffle_black_24dp.xml" value="0.2777777777777778" />
+        <entry key="..\:/Users/PC_User/AndroidStudioProjects/tanmen/app/src/main/res/drawable/outline_place_24.xml" value="0.1814814814814815" />
         <entry key="..\:/Users/PC_User/AndroidStudioProjects/tanmen/app/src/main/res/layout/activity_main.xml" value="0.33" />
-        <entry key="..\:/Users/PC_User/AndroidStudioProjects/tanmen/app/src/main/res/layout/bottom_sheet_contents.xml" value="0.22" />
+        <entry key="..\:/Users/PC_User/AndroidStudioProjects/tanmen/app/src/main/res/layout/bottom_sheet_contents.xml" value="0.1917808219178082" />
         <entry key="..\:/Users/PC_User/AndroidStudioProjects/tanmen/app/src/main/res/layout/fragment_dashboard.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/PC_User/AndroidStudioProjects/tanmen/app/src/main/res/layout/fragment_home.xml" value="0.24324324324324326" />
         <entry key="..\:/Users/PC_User/AndroidStudioProjects/tanmen/app/src/main/res/layout/fragment_notifications.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/PC_User/AndroidStudioProjects/tanmen/app/src/main/res/menu/bottom_nav_menu.xml" value="0.20520833333333333" />
       </map>
     </option>
   </component>

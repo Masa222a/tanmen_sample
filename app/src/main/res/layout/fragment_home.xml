@@ -45,7 +45,7 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <include
-        android:id="bottom_sheet"
+        android:id="@+id/bottom_sheet_contents"
         layout="@layout/bottom_sheet_contents"
         android:layout_width="match_parent"
         android:layout_height="300dp"
