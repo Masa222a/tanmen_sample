@@ -1,13 +1,13 @@
-package android.tanmen.ui.dashboard
+package android.tanmen.ui.shuffle
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-class DashboardViewModel : ViewModel() {
+class ShuffleViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "This is dashboard Fragment"
+        value = "This is shuffle Fragment"
     }
     val text: LiveData<String> = _text
 }
