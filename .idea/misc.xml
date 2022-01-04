@@ -16,7 +16,8 @@
         <entry key="..\:/Users/PC_User/AndroidStudioProjects/tanmen/app/src/main/res/layout/fragment_dashboard.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/PC_User/AndroidStudioProjects/tanmen/app/src/main/res/layout/fragment_home.xml" value="0.24324324324324326" />
         <entry key="..\:/Users/PC_User/AndroidStudioProjects/tanmen/app/src/main/res/layout/fragment_notifications.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/PC_User/AndroidStudioProjects/tanmen/app/src/main/res/layout/fragment_shuffle.xml" value="0.1" />
+        <entry key="..\:/Users/PC_User/AndroidStudioProjects/tanmen/app/src/main/res/layout/fragment_shuffle.xml" value="0.22" />
+        <entry key="..\:/Users/PC_User/AndroidStudioProjects/tanmen/app/src/main/res/layout/item_shop_list.xml" value="0.22" />
         <entry key="..\:/Users/PC_User/AndroidStudioProjects/tanmen/app/src/main/res/menu/bottom_nav_menu.xml" value="0.20520833333333333" />
       </map>
     </option>
