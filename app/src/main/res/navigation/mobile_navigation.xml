@@ -12,21 +12,14 @@
         tools:layout="@layout/fragment_home" >
         <action
             android:id="@+id/action_navigation_home_to_navigation_dashboard"
-            app:destination="@id/navigation_dashboard" />
-        <action
-            android:id="@+id/action_navigation_home_to_navigation_notifications"
-            app:destination="@id/navigation_notifications" />
+            app:destination="@id/navigation_shuffle" />
+
     </fragment>
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="android.tanmen.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        android:id="@+id/navigation_shuffle"
+        android:name="android.tanmen.ui.shuffle.ShuffleFragment"
+        android:label="@string/title_shuffle"
+        tools:layout="@layout/fragment_shuffle" />
 
-    <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="android.tanmen.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
 </navigation>
