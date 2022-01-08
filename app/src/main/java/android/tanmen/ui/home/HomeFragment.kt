@@ -13,11 +13,6 @@ import android.tanmen.databinding.FragmentHomeBinding
 
 class HomeFragment : Fragment() {
 
-    private lateinit var homeViewModel: HomeViewModel
-    private var _binding: FragmentHomeBinding? = null
-
-    // This property is only valid between onCreateView and
-    // onDestroyView.
     private val binding get() = _binding!!
 
     override fun onCreateView(
@@ -25,6 +20,10 @@ class HomeFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
+        lateinit var homeViewModel: HomeViewModel
+        
+        var _binding: FragmentHomeBinding? = null
+        
         homeViewModel =
             ViewModelProvider(this).get(HomeViewModel::class.java)
 
