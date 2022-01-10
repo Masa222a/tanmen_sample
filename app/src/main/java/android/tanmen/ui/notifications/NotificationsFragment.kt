@@ -10,36 +10,24 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import android.tanmen.R
 import android.tanmen.databinding.FragmentNotificationsBinding
+import androidx.fragment.app.viewModels
 
 class NotificationsFragment : Fragment() {
 
-    private lateinit var notificationsViewModel: NotificationsViewModel
-    private var _binding: FragmentNotificationsBinding? = null
-
-    // This property is only valid between onCreateView and
-    // onDestroyView.
-    private val binding get() = _binding!!
+    private val notificationsViewModel: NotificationsViewModel by viewModels()
 
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        notificationsViewModel =
-            ViewModelProvider(this).get(NotificationsViewModel::class.java)
-
-        _binding = FragmentNotificationsBinding.inflate(inflater, container, false)
+        val binding = FragmentNotificationsBinding.inflate(inflater, container, false)
+        
         val root: View = binding.root
 
-        val textView: TextView = binding.textNotifications
         notificationsViewModel.text.observe(viewLifecycleOwner, Observer {
-            textView.text = it
+            binding.textNotifications.text = it
         })
         return root
-    }
-
-    override fun onDestroyView() {
-        super.onDestroyView()
-        _binding = null
     }
 }
