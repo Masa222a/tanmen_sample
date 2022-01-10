@@ -10,35 +10,24 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import android.tanmen.R
 import android.tanmen.databinding.FragmentHomeBinding
+import androidx.fragment.app.viewModels
 
 class HomeFragment : Fragment() {
 
-    private val binding get() = _binding!!
+    private val homeViewModel: HomeViewModel by viewModels()
 
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        lateinit var homeViewModel: HomeViewModel
+        val binding = FragmentHomeBinding.inflate(inflater, container, false)
         
-        var _binding: FragmentHomeBinding? = null
-        
-        homeViewModel =
-            ViewModelProvider(this).get(HomeViewModel::class.java)
-
-        _binding = FragmentHomeBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        val textView: TextView = binding.textHome
         homeViewModel.text.observe(viewLifecycleOwner, Observer {
-            textView.text = it
+            binding.textHome.text = it
         })
         return root
-    }
-
-    override fun onDestroyView() {
-        super.onDestroyView()
-        _binding = null
     }
 }
